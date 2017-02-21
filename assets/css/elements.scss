@@ -1,0 +1,27 @@
+.tab{
+	ul{
+		margin: 36px 0  18px;
+		li{
+			display: inline;
+			padding-right: 3%;
+			a.active{
+				position: relative;
+				&:before{
+					    content: "";
+					    height: 4px;
+					    background-color: #322840;
+					    position: absolute;
+					    top: 22px;
+					    width: 100%;
+				}
+			}
+		}
+	}
+	p{
+		max-width: 768px;
+	}
+	.gallery{
+		padding: 54px 0;
+	}
+}
+

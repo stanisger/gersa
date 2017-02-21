@@ -1,0 +1,61 @@
+// ∆∆∆   COLORs   ∆∆∆
+
+$purple: #322840;
+.colorPurple{
+	color: $purple;
+}
+.bgPurple{
+	background-color: $purple !important;
+}
+
+$purpleLight: #64507F;
+.colorPurpleLight{
+	color: $purpleLight !important;
+}
+.bgPurpleLight{
+	background-color: $purpleLight !important;;
+}
+
+
+$gray : #3D3A40;
+.colorGray{
+	color: $gray;
+}
+.bgGray{
+	background: $gray;
+}
+
+
+$grayLight : #FFF5FF;
+.colorGrayLight{
+	color: $grayLight;
+}
+.bgGrayLight{
+	background-color: $grayLight;
+}
+
+
+$white : #FFFFFF;
+.colorWhite{
+	color: $white !important;
+}
+.bgWhite{
+	background-color: $white !important;;
+}
+$moss : #E5970C;
+.colorMoss{
+	color: $moss !important;
+}
+.bgMoss{
+	background-color: $moss !important;;
+}
+
+
+$mossLight : moccasin;
+.colorMossLight {
+	color: $mossLight !important;
+}
+.bgMossLight {
+	background-color: $mossLight !important;;
+}
+
