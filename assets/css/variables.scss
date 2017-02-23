@@ -22,7 +22,15 @@ $gray : #3D3A40;
 	color: $gray;
 }
 .bgGray{
-	background: $gray;
+	background: $gray !important;
+}
+
+$green : #3AFF24;
+.colorGreen{
+	color: $green;
+}
+.bgGreen{
+	background: $green !important;
 }
 
 

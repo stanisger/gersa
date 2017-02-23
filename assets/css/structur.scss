@@ -55,3 +55,34 @@ body{
    	}
    }
 }
+
+footer{
+   .container{
+      a{
+         padding: 4px 10px;
+         display: inline-block;
+         transition: all .2s;
+         &:hover{
+           background-color: rgba(black, .2);
+         }
+      }
+   }
+}
+.grid-item { width: 200px; }
+.grid-item--width2 { 
+   width:100%;
+    @media(min-width:620px){
+      width: 50%;
+    }
+    @media(min-width:992px){
+      width: 33%;
+    }
+    @media(min-width:1440px){
+      width: 25%;
+    }
+}
+
+
+
+
+

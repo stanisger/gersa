@@ -1,3 +1,4 @@
+@import url(./assets/font/flaticon.css);
 .colorPurple {
   color: #322840; }
 
@@ -14,7 +15,13 @@
   color: #3D3A40; }
 
 .bgGray {
-  background: #3D3A40; }
+  background: #3D3A40 !important; }
+
+.colorGreen {
+  color: #3AFF24; }
+
+.bgGreen {
+  background: #3AFF24 !important; }
 
 .colorGrayLight {
   color: #FFF5FF; }
@@ -71,6 +78,12 @@
 .opacityMedium {
   opacity: .3; }
 
+.position {
+  position: absolute; }
+
+.iniline-block {
+  display: inline-block; }
+
 body {
   font-family: 'Lato', sans-serif; }
   body .language {
@@ -115,8 +128,30 @@ body {
       padding: 0;
       line-height: 43px; }
 
+footer .container a {
+  padding: 4px 10px;
+  display: inline-block;
+  transition: all .2s; }
+  footer .container a:hover {
+    background-color: rgba(0, 0, 0, 0.2); }
+
+.grid-item {
+  width: 200px; }
+
+.grid-item--width2 {
+  width: 100%; }
+  @media (min-width: 620px) {
+    .grid-item--width2 {
+      width: 50%; } }
+  @media (min-width: 992px) {
+    .grid-item--width2 {
+      width: 33%; } }
+  @media (min-width: 1440px) {
+    .grid-item--width2 {
+      width: 25%; } }
+
 .tab ul {
-  margin: 36px 0  18px; }
+  margin: 54px 0; }
   .tab ul li {
     display: inline;
     padding-right: 3%; }
@@ -130,8 +165,11 @@ body {
         top: 22px;
         width: 100%; }
 .tab p {
-  max-width: 768px; }
+  max-width: 843px;
+  margin: 0; }
 .tab .gallery {
-  padding: 54px 0; }
+  padding: 46px 0; }
+  .tab .gallery .card {
+    margin: 1.2rem; }
 
 /*# sourceMappingURL=style.css.map */
