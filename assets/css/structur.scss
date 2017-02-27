@@ -68,9 +68,9 @@ footer{
       }
    }
 }
-.grid-item { width: 200px; }
+
 .grid-item--width2 { 
-   width:100%;
+   width:50%;
     @media(min-width:620px){
       width: 50%;
     }

@@ -64,32 +64,32 @@
         <div class="grid js-masonry">
 
 
-
         <div class="grid-item grid-item--width2">
-          <a class="modal-trigger" href="#modal1">
-            <div class="card">
-            <div class="card-image">
-              <img src="assets/images/centralCoachingColor.png">
-              <img src="assets/images/centralCoachingColor.png">
+            <div class="card relative">
+               <a  href="#modal1" class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgPurpleLight">
+                <i class="material-icons colorPurple">add</i>
+              </a>
+              <div class="card-image">
+                <img src="assets/images/centralCoachingColor.png">
+                <img src="assets/images/centralCoachingColor.png">
+              </div>
+              <div class="card-action bgPurple">
+                <a href="#" class="secondFont colorPurpleLight">Central Coaching</a>
+              </div>
             </div>
-            <div class="card-action bgMoss">
-              <a href="#" class="secondFont colorWhite">Central Coaching</a>
-            </div>
-            </div>
-            </a>
         </div>
 
 
-
-
-
           <div class="grid-item grid-item--width2">
-            <div class="card">
+            <div class="card relative">
+               <a  href="#modal2" class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgMossLight">
+                <i class="material-icons colorMoss">add</i>
+              </a>
                <div class="card-image">
                 <img src="assets/images/parqueSur.jpg">
                </div>
                <div class="card-action bgMoss">
-                  <a href="#" class="secondFont colorWhite">Parque Sur</a>
+                  <a href="#" class="secondFont colorMossLight">Parque Sur</a>
                 </div>
             </div>
           </div>
@@ -175,13 +175,39 @@
 
 
   <!-- Modal Structure -->
-  <div id="modal1" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
+  <div id="modal1" class="modal bottom-sheet ">
+    <div class="modal-header bgPurpleLight container">
+      <a href ="#"class="material-icons modal-action modal-close fixed colorWhite">close</a>
+      <h3 class="colorWhite title fontTwo">Central Coaching</h3>
     </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+    <div class="modal-content container row">
+      <div class="eyecatcher col s12 bgPurpleLight relative">
+        <i class=" flaticon-computer colorPurple center-align absolute"></i>
+        <figure class="absolute hidden centerAbsol">
+           <img src="./assets/images/cc/home.jpg" class="absolute"alt="">
+        </figure> 
+      </div>
+      <div class="main col s12 m8 bgPurple"></div>
+      <div class="mainor col s12 m4 bgPurpleLight"></div>
+      <div class="eyecatcher col s12 bgPurple"></div>
+
+    </div>
+  </div>
+
+   <!-- Modal Structure -->
+  <div id="modal2" class="modal bottom-sheet ">
+    <div class="modal-header bgPurpleLight container">
+      <a href ="#"class="material-icons modal-action modal-close fixed colorWhite">close</a>
+      <h3 class="colorWhite title fontTwo">Central Coaching</h3>
+    </div>
+    <div class="modal-content container row">
+      <div class="eyecatcher col s12 bgPurpleLight relative">
+        <i class=" flaticon-computer colorPurple center-align absolute"></i>
+      </div>
+      <div class="main col s12 m8 bgPurple"></div>
+      <div class="mainor col s12 m4 bgPurpleLight"></div>
+      <div class="eyecatcher col s12 bgPurple"></div>
+
     </div>
   </div>
 
@@ -189,7 +215,7 @@
   <div class="container social">
    <a href="#" class="colorPurpleLight"><i class="flaticon-behance"></i></a>
    <a href="#" class="colorPurpleLight"><i class="flaticon-github-logo"></i></a>
-   <a href="#" class="colorPurpleLight"><i class="flaticon-instagram-1"></i></a>
+   <a href="#" class="colorPurpleLight"><i class="flaticon-instagram"></i></a>
  </div>
  </footer>
 

@@ -1,6 +1,6 @@
 @import url(./assets/font/flaticon.css);
 .colorPurple {
-  color: #322840; }
+  color: #322840 !important; }
 
 .bgPurple {
   background-color: #322840 !important; }
@@ -78,8 +78,17 @@
 .opacityMedium {
   opacity: .3; }
 
-.position {
+.absolute {
   position: absolute; }
+
+.relative {
+  position: relative; }
+
+.fixed {
+  position: fixed; }
+
+.block {
+  display: block; }
 
 .iniline-block {
   display: inline-block; }
@@ -135,11 +144,8 @@ footer .container a {
   footer .container a:hover {
     background-color: rgba(0, 0, 0, 0.2); }
 
-.grid-item {
-  width: 200px; }
-
 .grid-item--width2 {
-  width: 100%; }
+  width: 50%; }
   @media (min-width: 620px) {
     .grid-item--width2 {
       width: 50%; } }
@@ -170,6 +176,62 @@ footer .container a {
 .tab .gallery {
   padding: 46px 0; }
   .tab .gallery .card {
-    margin: 1.2rem; }
+    margin: .4em; }
+    @media (min-width: 992px) {
+      .tab .gallery .card {
+        margin: .8em; } }
+    .tab .gallery .card > a {
+      right: 9px;
+      top: 18px; }
+      @media (min-width: 992px) {
+        .tab .gallery .card > a {
+          top: initial;
+          bottom: 41px; } }
+    .tab .gallery .card .card-action {
+      padding: 9px; }
+      .tab .gallery .card .card-action a {
+        font-size: 12px; }
+      @media (min-width: 992px) {
+        .tab .gallery .card .card-action {
+          padding: 18px 24px; }
+          .tab .gallery .card .card-action a {
+            font-size: 14px; } }
+
+.bottom-sheet {
+  min-height: 100%;
+  background-color: transparent; }
+  .bottom-sheet a {
+    top: 18px;
+    right: 18px; }
+  .bottom-sheet .modal-header {
+    padding: 18px 36px; }
+  .bottom-sheet .modal-content {
+    background: white; }
+    .bottom-sheet .modal-content .eyecatcher {
+      height: 320px;
+      overflow: hidden; }
+      .bottom-sheet .modal-content .eyecatcher i {
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        top: 100PX;
+        z-index: 5; }
+        .bottom-sheet .modal-content .eyecatcher i:before {
+          font-size: 16em; }
+      .bottom-sheet .modal-content .eyecatcher figure {
+        width: 15.3em;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        z-index: 4;
+        top: 192px;
+        z-index: 4;
+        border-radius: 5px;
+        height: 124px;
+        overflow: hidden; }
+        .bottom-sheet .modal-content .eyecatcher figure img {
+          width: 100%; }
+    .bottom-sheet .modal-content .main, .bottom-sheet .modal-content .mainor {
+      height: 75vh; }
 
 /*# sourceMappingURL=style.css.map */

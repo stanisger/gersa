@@ -33,14 +33,32 @@
 }
 
 
+
+
+
 // ∆∆ color
 .opacityMedium{
 	opacity: .3;
 }
 
-.position{
+
+//∆∆ Position
+.absolute{
 	position: absolute;
 }
+.relative{
+	position: relative;
+}
+.fixed{
+	position: fixed;
+}
+
+
+
+.block{
+	display: block;
+}
+
 .iniline-block{
 	display: inline-block;
 }
