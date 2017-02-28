@@ -62,16 +62,27 @@
 			right: 18px;
 		}
 	.modal-header{
+		width: 100%;
 		padding: 18px 36px;
+		@media(min-width: 1200px){
+			width: 70%;
+			margin: 0 auto;
+		}
 	}
 	.modal-content{
+		width: 100%;
 		background: white;	
+		@media(min-width: 1200px){
+			width: 70%;
+			margin: 0 auto;
+		}
         .eyecatcher{
         	height: 320px;
         	overflow: hidden;
-        	i{
+        	#animate1{
         		@include centerAbsolute;
-        		top: 100PX;
+        		top: 100px;
+        		height: auto;
         		z-index: 5;
         		&:before{
         			font-size: 16em;
@@ -100,3 +111,8 @@
         }
 	}
 }
+
+#modal1{
+	overflow: auto;
+}
+
