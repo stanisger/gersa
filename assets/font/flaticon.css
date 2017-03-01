@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 27/02/2017 20:01
+  	Creation date: 01/03/2017 19:50
   	*/
 
 @font-face {
@@ -35,22 +35,24 @@ font-smoothing: antialiased;
 -webkit-font-smoothing: antialiased;
 }
 
-.flaticon-computer-1:before { content: "\f100"; }
-.flaticon-technology-1:before { content: "\f101"; }
-.flaticon-computer:before { content: "\f102"; }
-.flaticon-technology:before { content: "\f103"; }
-.flaticon-responsive-design-symbol:before { content: "\f104"; }
-.flaticon-php-programmation-file-black-interface-symbol:before { content: "\f105"; }
-.flaticon-interface:before { content: "\f106"; }
-.flaticon-tablet:before { content: "\f107"; }
-.flaticon-cell-phone:before { content: "\f108"; }
-.flaticon-java-script-logo:before { content: "\f109"; }
-.flaticon-css-3:before { content: "\f10a"; }
-.flaticon-html5:before { content: "\f10b"; }
-.flaticon-wordpress:before { content: "\f10c"; }
-.flaticon-behance:before { content: "\f10d"; }
-.flaticon-instagram-1:before { content: "\f10e"; }
+.flaticon-computer-2:before { content: "\f100"; }
+.flaticon-apple:before { content: "\f101"; }
+.flaticon-wordpress:before { content: "\f102"; }
+.flaticon-tablet:before { content: "\f103"; }
+.flaticon-java-script-logo:before { content: "\f104"; }
+.flaticon-github-logo:before { content: "\f105"; }
+.flaticon-php-programmation-file-black-interface-symbol:before { content: "\f106"; }
+.flaticon-responsive-design-symbol:before { content: "\f107"; }
+.flaticon-computer-1:before { content: "\f108"; }
+.flaticon-computer:before { content: "\f109"; }
+.flaticon-html5:before { content: "\f10a"; }
+.flaticon-css-3:before { content: "\f10b"; }
+.flaticon-instagram-1:before { content: "\f10c"; }
+.flaticon-technology-1:before { content: "\f10d"; }
+.flaticon-technology:before { content: "\f10e"; }
 .flaticon-linkedin:before { content: "\f10f"; }
 .flaticon-instagram:before { content: "\f110"; }
-.flaticon-github-logo:before { content: "\f111"; }ntent: "\f110"; }
-.flaticon-018-github-logo:before { content: "\f111"; }
+.flaticon-behance:before { content: "\f111"; }
+.flaticon-cell-phone:before { content: "\f112"; }
+.flaticon-interface:before { content: "\f113"; }efore { content: "\f112"; }
+.flaticon-020-interface:before { content: "\f113"; }
