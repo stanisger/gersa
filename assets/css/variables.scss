@@ -42,6 +42,14 @@ $grayLight : #FFF5FF;
 	background-color: $grayLight;
 }
 
+$grayLight02 : rgba( black, .08);
+.colorGrayLight02{
+	color: $grayLight02;
+}
+.bgGrayLight02{
+	background-color: $grayLight02;
+}
+
 
 $white : #FFFFFF;
 .colorWhite{

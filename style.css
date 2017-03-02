@@ -29,6 +29,12 @@
 .bgGrayLight {
   background-color: #FFF5FF; }
 
+.colorGrayLight02 {
+  color: rgba(0, 0, 0, 0.08); }
+
+.bgGrayLight02 {
+  background-color: rgba(0, 0, 0, 0.08); }
+
 .colorWhite {
   color: #FFFFFF !important; }
 
@@ -99,6 +105,17 @@
 
 .iniline-block {
   display: inline-block; }
+
+.w100 {
+  width: 100%; }
+
+.h100 {
+  height: 100%; }
+
+ul.general li {
+  display: inline !important; }
+  ul.general li i {
+    padding-right: 7px; }
 
 body {
   font-family: 'Lato', sans-serif; }
@@ -218,13 +235,33 @@ footer .container a {
         width: 74%;
         margin: 0 auto; } }
   .bottom-sheet .modal-content {
-    padding: 0;
+    padding: 0px;
     width: 100%;
     background: white; }
     @media (min-width: 1320px) {
       .bottom-sheet .modal-content {
         width: 74%;
         margin: 0 auto; } }
+    .bottom-sheet .modal-content .eyecatcherTwo {
+      height: auto;
+      overflow: hidden; }
+      @media (min-width: 600px) {
+        .bottom-sheet .modal-content .eyecatcherTwo {
+          height: 700px; } }
+      @media (min-width: 1200px) {
+        .bottom-sheet .modal-content .eyecatcherTwo {
+          height: 700px; } }
+      @media (min-width: 1680px) {
+        .bottom-sheet .modal-content .eyecatcherTwo {
+          height: 1059px; } }
+      .bottom-sheet .modal-content .eyecatcherTwo .decription {
+        padding: 54px  24px; }
+        @media (min-width: 768px) {
+          .bottom-sheet .modal-content .eyecatcherTwo .decription {
+            padding: 61px 54px; } }
+        @media (min-width: 1200px) {
+          .bottom-sheet .modal-content .eyecatcherTwo .decription {
+            padding: 90px; } }
     .bottom-sheet .modal-content .eyecatcher {
       height: 248px;
       overflow: hidden; }
@@ -307,10 +344,10 @@ footer .container a {
           height: 330px; } }
       @media (min-width: 992px) {
         .bottom-sheet .modal-content .main, .bottom-sheet .modal-content .mainor {
-          height: 450px; } }
+          height: 500px; } }
       @media (min-width: 1680px) {
         .bottom-sheet .modal-content .main, .bottom-sheet .modal-content .mainor {
-          height: 500px; } }
+          height: 534px; } }
     .bottom-sheet .modal-content .main i {
       right: 0;
       left: 0;
@@ -361,7 +398,53 @@ footer .container a {
           height: 346px; } }
       @media (min-width: 1200px) {
         .bottom-sheet .modal-content .main figure {
-          top: 79px; } }
+          top: 76px;
+          width: 29.2em;
+          height: 352px; } }
+    .bottom-sheet .modal-content .mainor i {
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      top: 0;
+      height: auto;
+      z-index: 5;
+      transition: font-size .2s; }
+      .bottom-sheet .modal-content .mainor i:before {
+        font-size: 16em; }
+      @media (min-width: 600px) {
+        .bottom-sheet .modal-content .mainor i:before {
+          font-size: 15em; } }
+      @media (min-width: 992px) {
+        .bottom-sheet .modal-content .mainor i {
+          top: -40px; }
+          .bottom-sheet .modal-content .mainor i:before {
+            font-size: 23em; } }
+    .bottom-sheet .modal-content .mainor figure {
+      width: 7.4em;
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      z-index: 4;
+      top: 88px;
+      z-index: 4;
+      border-radius: 0px;
+      height: 185px;
+      overflow: hidden; }
+      .bottom-sheet .modal-content .mainor figure img {
+        width: 100%; }
+      @media (min-width: 600px) {
+        .bottom-sheet .modal-content .mainor figure {
+          width: 7.2em;
+          height: 248px;
+          top: 85px; } }
+      @media (min-width: 992px) {
+        .bottom-sheet .modal-content .mainor figure {
+          width: 10.9em;
+          top: 92px;
+          height: 346px; } }
+      @media (min-width: 1200px) {
+        .bottom-sheet .modal-content .mainor figure {
+          top: 96px; } }
 
 #modal1 {
   overflow: auto; }
