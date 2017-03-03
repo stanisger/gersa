@@ -42,6 +42,14 @@ $grayLight : #FFF5FF;
 	background-color: $grayLight;
 }
 
+$grayLight01 : rgba( black, .04);
+.colorGrayLight01{
+	color: $grayLight01;
+}
+.bgGrayLight01{
+	background-color: $grayLight01;
+}
+
 $grayLight02 : rgba( black, .08);
 .colorGrayLight02{
 	color: $grayLight02;
@@ -74,4 +82,24 @@ $mossLight : moccasin;
 .bgMossLight {
 	background-color: $mossLight !important;;
 }
+
+$blue : #051a32;
+.colorBlue {
+	color: $blue !important;
+}
+.bgBlue {
+	background-color: $blue !important;;
+}
+
+$blueLigth : #6683a5;
+.colorBlueLigth {
+	color: $blueLigth !important;
+}
+.bgBlueLigth {
+	background-color: $blueLigth !important;;
+}
+
+
+
+
 

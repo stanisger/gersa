@@ -29,6 +29,12 @@
 .bgGrayLight {
   background-color: #FFF5FF; }
 
+.colorGrayLight01 {
+  color: rgba(0, 0, 0, 0.04); }
+
+.bgGrayLight01 {
+  background-color: rgba(0, 0, 0, 0.04); }
+
 .colorGrayLight02 {
   color: rgba(0, 0, 0, 0.08); }
 
@@ -52,6 +58,18 @@
 
 .bgMossLight {
   background-color: moccasin !important; }
+
+.colorBlue {
+  color: #051a32 !important; }
+
+.bgBlue {
+  background-color: #051a32 !important; }
+
+.colorBlueLigth {
+  color: #6683a5 !important; }
+
+.bgBlueLigth {
+  background-color: #6683a5 !important; }
 
 .thing {
   font-weight: 100; }
@@ -116,6 +134,9 @@ ul.general li {
   display: inline !important; }
   ul.general li i {
     padding-right: 7px; }
+
+.paddingCero {
+  padding: 0 !important; }
 
 body {
   font-family: 'Lato', sans-serif; }
