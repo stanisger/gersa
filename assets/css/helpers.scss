@@ -90,4 +90,22 @@
 
  .paddingCero{
  	padding:0 !important;
+ }	
+
+
+ .select{
+ 	opacity: 1;
  }
+
+
+ .hover{
+ 	transition: opacity .2;
+ 	&:hover{
+ 		opacity: .5; 
+ 	}
+ }
+
+
+
+
+

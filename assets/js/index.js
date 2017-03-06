@@ -13,6 +13,21 @@
      }
     )
 
+var card = $(".card-image");
+ 
+$(".card-image").hover(
+	  function () {
+	    $(this).addClass('select');
+	    $(this).removeClass('hover');
+	    $(".card-image").addClass('hover');
+	  }
+  );
+
+// if('select'){
+// 	$(".card-image").addClass('hover');
+// }
+
+
 // //∆∆ Modal&Objetos
 // var modalSelect = $('.modal');
 // var computer = $('#animate1');

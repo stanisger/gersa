@@ -138,6 +138,14 @@ ul.general li {
 .paddingCero {
   padding: 0 !important; }
 
+.select {
+  opacity: 1; }
+
+.hover {
+  transition: opacity .2; }
+  .hover:hover {
+    opacity: .5; }
+
 body {
   font-family: 'Lato', sans-serif; }
   body .language {
@@ -224,7 +232,7 @@ footer .container a {
     margin: .4em; }
     @media (min-width: 992px) {
       .tab .gallery .card {
-        margin: .8em; } }
+        margin: 1.5em; } }
     .tab .gallery .card > a {
       right: 9px;
       top: 18px; }
